@@ -1,0 +1,14 @@
+<html>
+<body>
+    <h1>All database rows</h1>
+    <a href="/">Main Page</a>
+    <table cellpadding="5" cellspacing="0" border="1">
+        {% for ent in entities %}
+        <tr>
+            <td>{{ ent[0] }}</td>
+            <td>{{ ent[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
