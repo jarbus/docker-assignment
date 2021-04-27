@@ -93,4 +93,4 @@ def all():
     return render_template('entities.html', entities=ents)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
